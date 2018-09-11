@@ -18,11 +18,11 @@ export default class Login extends Component {
 
   onSubmit(e) {
     e.preventDefault();
-    const newuser = {
+    const user = {
       email: this.state.email,
       password: this.state.password,
     };
-    console.log(newuser);
+    console.log(user);
   }
   render() {
     return (
